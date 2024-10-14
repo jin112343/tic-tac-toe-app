@@ -18,7 +18,7 @@ tic-tac-toe-app/ <br>
 │   └── AdRemovalView.swift           // 広告削除に関するロジック(ここでは未実装)<br>
 ├── Main.swift<br>
 └── └── Resources<br>
-    └── audio                        // ゲーム内で使用されるサウンドファイル<br>
+    　　　　　└── audio                        // ゲーム内で使用されるサウンドファイル<br>
 
 
 
