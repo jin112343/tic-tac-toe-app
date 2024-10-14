@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF68FF142CBC27F30009BED8 /* tic_tac_toe_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68FF132CBC27F30009BED8 /* tic_tac_toe_appApp.swift */; };
-		DF68FF162CBC27F30009BED8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68FF152CBC27F30009BED8 /* ContentView.swift */; };
+		C0D6ABBD91C0C9FAEBE4247F /* Pods_tic_tac_toe_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7123FB0B994FB8A49DC7F98 /* Pods_tic_tac_toe_app.framework */; };
 		DF68FF182CBC27F50009BED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF68FF172CBC27F50009BED8 /* Assets.xcassets */; };
 		DF68FF1B2CBC27F50009BED8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF68FF1A2CBC27F50009BED8 /* Preview Assets.xcassets */; };
+		DF68FF252CBC2D7C0009BED8 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68FF242CBC2D7C0009BED8 /* Main.swift */; };
+		DF68FF272CBC2DB50009BED8 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68FF262CBC2DB50009BED8 /* GameBoard.swift */; };
+		DF68FF2A2CBC2E730009BED8 /* OneVsOneGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68FF292CBC2E730009BED8 /* OneVsOneGameView.swift */; };
+		DF68FF2D2CBC2E9D0009BED8 /* AIGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68FF2C2CBC2E9D0009BED8 /* AIGameView.swift */; };
+		DF68FF2F2CBC2EAF0009BED8 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68FF2E2CBC2EAF0009BED8 /* MenuView.swift */; };
+		DF68FF322CBC2EE60009BED8 /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68FF312CBC2EE60009BED8 /* GameBoardView.swift */; };
+		DF68FF342CBC2F0E0009BED8 /* XMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68FF332CBC2F0E0009BED8 /* XMarkView.swift */; };
+		DF68FF362CBC2F2B0009BED8 /* OMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68FF352CBC2F2B0009BED8 /* OMarkView.swift */; };
+		DF68FF392CBC2F7B0009BED8 /* BannerAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68FF382CBC2F7B0009BED8 /* BannerAdView.swift */; };
+		DF68FF3B2CBC2F9C0009BED8 /* AdRemovalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68FF3A2CBC2F9C0009BED8 /* AdRemovalView.swift */; };
+		DF68FF402CBC39670009BED8 /* audio in Resources */ = {isa = PBXBuildFile; fileRef = DF68FF3F2CBC39660009BED8 /* audio */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		322BE8F5FED4F8AACE7D5847 /* Pods-tic-tac-toe-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tic-tac-toe-app.release.xcconfig"; path = "Target Support Files/Pods-tic-tac-toe-app/Pods-tic-tac-toe-app.release.xcconfig"; sourceTree = "<group>"; };
+		92648DDAD08DE9CBA5103916 /* Pods-tic-tac-toe-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tic-tac-toe-app.debug.xcconfig"; path = "Target Support Files/Pods-tic-tac-toe-app/Pods-tic-tac-toe-app.debug.xcconfig"; sourceTree = "<group>"; };
+		C7123FB0B994FB8A49DC7F98 /* Pods_tic_tac_toe_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tic_tac_toe_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF68FF102CBC27F30009BED8 /* tic-tac-toe-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tic-tac-toe-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF68FF132CBC27F30009BED8 /* tic_tac_toe_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tic_tac_toe_appApp.swift; sourceTree = "<group>"; };
-		DF68FF152CBC27F30009BED8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF68FF172CBC27F50009BED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF68FF1A2CBC27F50009BED8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF68FF242CBC2D7C0009BED8 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		DF68FF262CBC2DB50009BED8 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
+		DF68FF292CBC2E730009BED8 /* OneVsOneGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneVsOneGameView.swift; sourceTree = "<group>"; };
+		DF68FF2C2CBC2E9D0009BED8 /* AIGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIGameView.swift; sourceTree = "<group>"; };
+		DF68FF2E2CBC2EAF0009BED8 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		DF68FF312CBC2EE60009BED8 /* GameBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
+		DF68FF332CBC2F0E0009BED8 /* XMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkView.swift; sourceTree = "<group>"; };
+		DF68FF352CBC2F2B0009BED8 /* OMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMarkView.swift; sourceTree = "<group>"; };
+		DF68FF382CBC2F7B0009BED8 /* BannerAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdView.swift; sourceTree = "<group>"; };
+		DF68FF3A2CBC2F9C0009BED8 /* AdRemovalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdRemovalView.swift; sourceTree = "<group>"; };
+		DF68FF3F2CBC39660009BED8 /* audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = audio; sourceTree = "<group>"; };
+		DF68FF492CBC4B0A0009BED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0D6ABBD91C0C9FAEBE4247F /* Pods_tic_tac_toe_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08BD165401B49627E79FF3DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92648DDAD08DE9CBA5103916 /* Pods-tic-tac-toe-app.debug.xcconfig */,
+				322BE8F5FED4F8AACE7D5847 /* Pods-tic-tac-toe-app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C73BC8E87DC8E8F968A6C4C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7123FB0B994FB8A49DC7F98 /* Pods_tic_tac_toe_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF68FF072CBC27F30009BED8 = {
 			isa = PBXGroup;
 			children = (
 				DF68FF122CBC27F30009BED8 /* tic-tac-toe-app */,
 				DF68FF112CBC27F30009BED8 /* Products */,
+				08BD165401B49627E79FF3DD /* Pods */,
+				C73BC8E87DC8E8F968A6C4C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +94,14 @@
 		DF68FF122CBC27F30009BED8 /* tic-tac-toe-app */ = {
 			isa = PBXGroup;
 			children = (
-				DF68FF132CBC27F30009BED8 /* tic_tac_toe_appApp.swift */,
-				DF68FF152CBC27F30009BED8 /* ContentView.swift */,
+				DF68FF492CBC4B0A0009BED8 /* Info.plist */,
+				DF68FF212CBC2D3D0009BED8 /* Models */,
+				DF68FF282CBC2E580009BED8 /* Views */,
+				DF68FF302CBC2ECA0009BED8 /* Widgets */,
+				DF68FF372CBC2F5C0009BED8 /* AdMob */,
+				DF68FF242CBC2D7C0009BED8 /* Main.swift */,
 				DF68FF172CBC27F50009BED8 /* Assets.xcassets */,
+				DF68FF3E2CBC38FE0009BED8 /* Resources */,
 				DF68FF192CBC27F50009BED8 /* Preview Content */,
 			);
 			path = "tic-tac-toe-app";
@@ -67,6 +115,51 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DF68FF212CBC2D3D0009BED8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF68FF262CBC2DB50009BED8 /* GameBoard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF68FF282CBC2E580009BED8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF68FF292CBC2E730009BED8 /* OneVsOneGameView.swift */,
+				DF68FF2C2CBC2E9D0009BED8 /* AIGameView.swift */,
+				DF68FF2E2CBC2EAF0009BED8 /* MenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF68FF302CBC2ECA0009BED8 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				DF68FF312CBC2EE60009BED8 /* GameBoardView.swift */,
+				DF68FF332CBC2F0E0009BED8 /* XMarkView.swift */,
+				DF68FF352CBC2F2B0009BED8 /* OMarkView.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		DF68FF372CBC2F5C0009BED8 /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				DF68FF382CBC2F7B0009BED8 /* BannerAdView.swift */,
+				DF68FF3A2CBC2F9C0009BED8 /* AdRemovalView.swift */,
+			);
+			path = AdMob;
+			sourceTree = "<group>";
+		};
+		DF68FF3E2CBC38FE0009BED8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF68FF3F2CBC39660009BED8 /* audio */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF68FF1E2CBC27F50009BED8 /* Build configuration list for PBXNativeTarget "tic-tac-toe-app" */;
 			buildPhases = (
+				AE428E15078E8CDD8D60E8F2 /* [CP] Check Pods Manifest.lock */,
 				DF68FF0C2CBC27F30009BED8 /* Sources */,
 				DF68FF0D2CBC27F30009BED8 /* Frameworks */,
 				DF68FF0E2CBC27F30009BED8 /* Resources */,
+				EC808E1685117D3AC8E6356D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF68FF402CBC39670009BED8 /* audio in Resources */,
 				DF68FF1B2CBC27F50009BED8 /* Preview Assets.xcassets in Resources */,
 				DF68FF182CBC27F50009BED8 /* Assets.xcassets in Resources */,
 			);
@@ -132,13 +228,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AE428E15078E8CDD8D60E8F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tic-tac-toe-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC808E1685117D3AC8E6356D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tic-tac-toe-app/Pods-tic-tac-toe-app-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tic-tac-toe-app/Pods-tic-tac-toe-app-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tic-tac-toe-app/Pods-tic-tac-toe-app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF68FF0C2CBC27F30009BED8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF68FF162CBC27F30009BED8 /* ContentView.swift in Sources */,
-				DF68FF142CBC27F30009BED8 /* tic_tac_toe_appApp.swift in Sources */,
+				DF68FF342CBC2F0E0009BED8 /* XMarkView.swift in Sources */,
+				DF68FF2D2CBC2E9D0009BED8 /* AIGameView.swift in Sources */,
+				DF68FF252CBC2D7C0009BED8 /* Main.swift in Sources */,
+				DF68FF2A2CBC2E730009BED8 /* OneVsOneGameView.swift in Sources */,
+				DF68FF2F2CBC2EAF0009BED8 /* MenuView.swift in Sources */,
+				DF68FF272CBC2DB50009BED8 /* GameBoard.swift in Sources */,
+				DF68FF392CBC2F7B0009BED8 /* BannerAdView.swift in Sources */,
+				DF68FF322CBC2EE60009BED8 /* GameBoardView.swift in Sources */,
+				DF68FF3B2CBC2F9C0009BED8 /* AdRemovalView.swift in Sources */,
+				DF68FF362CBC2F2B0009BED8 /* OMarkView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +328,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -245,7 +391,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -266,6 +412,7 @@
 		};
 		DF68FF1F2CBC27F50009BED8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92648DDAD08DE9CBA5103916 /* Pods-tic-tac-toe-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -275,6 +422,8 @@
 				DEVELOPMENT_TEAM = 37WVSWSLX9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tic-tac-toe-app/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = GADApplicationIdentifier;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -287,6 +436,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "MangaMemoriesAppMizoiJin.tic-tac-toe-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,6 +448,7 @@
 		};
 		DF68FF202CBC27F50009BED8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 322BE8F5FED4F8AACE7D5847 /* Pods-tic-tac-toe-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +458,8 @@
 				DEVELOPMENT_TEAM = 37WVSWSLX9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tic-tac-toe-app/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = GADApplicationIdentifier;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +472,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "MangaMemoriesAppMizoiJin.tic-tac-toe-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
