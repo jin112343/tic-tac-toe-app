@@ -15,11 +15,10 @@ tic-tac-toe-app/ <br>
 │   └── OMarkView.swift               // Oマークの描画<br>
 ├── AdMob<br>
 │   ├── BannerAdView.swift            // バナー広告表示用のウィジェット<br>
-│   └── AdRemovalView.swift           // 広告削除に関するロジック<br>
+│   └── AdRemovalView.swift           // 広告削除に関するロジック(ここでは未実装)<br>
 ├── Main.swift<br>
-└── Assets<br>
-    ├── Images.xcassets               // 画像ファイルやアイコンを格納<br>
-    └── Sounds                        // ゲーム内で使用されるサウンドファイル<br>
+└── └── Resources<br>
+    └── audio                        // ゲーム内で使用されるサウンドファイル<br>
 
 
 
