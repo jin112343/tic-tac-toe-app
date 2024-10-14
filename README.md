@@ -20,6 +20,13 @@ tic-tac-toe-app/ <br>
 └── └── Resources<br>
     　　　　　└── audio                        // ゲーム内で使用されるサウンドファイル<br>
 
+## プレビュー
+
+
+![combined_images](https://github.com/user-attachments/assets/12feeafc-66c5-43af-80a9-f549402f93fd)
+
+
+
 
 
 
